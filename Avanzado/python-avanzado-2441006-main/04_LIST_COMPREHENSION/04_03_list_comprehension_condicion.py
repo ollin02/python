@@ -26,9 +26,10 @@ print("Cilco for: ", lista_cuadrados)
 lista_cuadrados = [calcular_cuadrado(num) for num in lista_num]
 print("List comprehension: ",lista_cuadrados)
 
+#calcula los cuadrado de los numeros pares
 lista_cuadrados_pares = [calcular_cuadrado(num) for num in lista_num if es_par(num)]
 print("Cuadrados pares: ",lista_cuadrados_pares)
 
 #verifica si es par o impar y pone un cero cuanso el numerp es impar
 lista_resultados = [calcular_cuadrado(num) if es_par(num) else 0 for num in lista_num]
-print(lista_resultados)
+print("Cudrados pares, cero a los impares: ",lista_resultados)
