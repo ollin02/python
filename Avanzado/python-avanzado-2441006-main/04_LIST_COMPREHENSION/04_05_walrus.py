@@ -1,3 +1,5 @@
+#operador walrus permite asignanr un valor a unja variable mientras se evalua como exprecion
+#exprecion de asignacion walrus operator
 def calcular_cuadrado(numero):
     return numero ** 2
 
