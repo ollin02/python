@@ -28,11 +28,3 @@ data = response.json()
 print(data.keys())# responde dict_keys(['total_count','incomplete_results','items'])
 #'total_count' cuantos repositorios encontro
 #items cosidensias que tubieran las palabara python
-"""response = requests.get(
-    "https://api.github.com/search/repositories",
-    params={"q": "python"}
-)
-print(response.json())
-
-data = response.json()
-print(data.keys())"""
