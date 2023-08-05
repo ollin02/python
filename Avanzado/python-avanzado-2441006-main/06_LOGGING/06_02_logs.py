@@ -1,6 +1,6 @@
 import logging
 
-#eligimos el nivel del log
+#eligimos el nivel del log para imprimir
 logging.basicConfig(level=logging.DEBUG)
 #normalmente se guardan en archivos
 logging.basicConfig(level=logging.DEBUG, filename="ejemplo_logs.log", filemode="w")
