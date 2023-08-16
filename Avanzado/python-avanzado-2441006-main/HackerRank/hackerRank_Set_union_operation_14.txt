@@ -1,4 +1,5 @@
 .union()
+The set is immutable to the .union() operation (or | operation).
 
 >>> s = set("Hacker")
 >>> print s.union("Rank")
